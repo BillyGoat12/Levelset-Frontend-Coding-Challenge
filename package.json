@@ -1,0 +1,42 @@
+{
+  "name": "levelset-frontend-coding-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BillyGoat12/Levelset-Frontend-Coding-Challenge.git"
+  },
+  "author": "Billy Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BillyGoat12/Levelset-Frontend-Coding-Challenge/issues"
+  },
+  "homepage": "https://github.com/BillyGoat12/Levelset-Frontend-Coding-Challenge#readme",
+  "dependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/preset-react": "^7.12.13",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "babel-loader": "^8.2.2",
+    "bootstrap": "^3.4.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.5.1",
+    "react-dom": "^17.0.1",
+    "react-native": "^0.63.4",
+    "react-native-elements": "^3.2.0",
+    "webpack": "^5.24.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.5.0"
+  }
+}
