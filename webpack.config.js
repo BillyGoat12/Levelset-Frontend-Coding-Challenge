@@ -1,5 +1,5 @@
 const path = require("path");
-
+// webpack config
 module.exports = {
   mode: "development",
   entry: path.join(__dirname, "client", "src", "Index.jsx"),
