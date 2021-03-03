@@ -42,6 +42,7 @@ const App = () => {
           {error ? (
             <div>
               <h3>Input for date is incorrect</h3>
+              <h3>or name is invalid</h3>
               <button onClick={() => setError(false)}>Okay</button>
             </div>
           ) : (
@@ -121,7 +122,8 @@ const App = () => {
                       test.length !== 3 ||
                       !Number(test[0]) ||
                       !Number(test[1]) ||
-                      !Number(test[2])
+                      !Number(test[2]) ||
+                      name === ""
                     ) {
                       setError(true);
                     } else {
